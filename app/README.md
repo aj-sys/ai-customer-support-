@@ -128,7 +128,6 @@ Try typing these messages in the app:
 
 **Screenshot:**
 ![Message Classification Results](app/screenshots/07_message_classification_results.png)
-
 ---
 
 ### 7. Optional Enhancements
