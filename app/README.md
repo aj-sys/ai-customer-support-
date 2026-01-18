@@ -1,19 +1,20 @@
 # AI Customer Support Demo
 
 
-## Conclusion
 
-This project showcases how even beginners can leverage **AWS EC2, Python, and Flask** to build a real-world web application with AI-powered functionality.  
+## 🚀 Project Introduction
 
-Through this demo, you’ve seen how to:  
-- Launch and configure an EC2 instance  
-- Install Python and Flask dependencies  
-- Develop a web application to classify messages  
-- Open ports and configure Security Groups for public access  
+This project demonstrates how to build and deploy a **simple AI-powered Customer Support application** using **Python, Flask, and AWS EC2 (Free Tier)**. It is designed to help learners move beyond theory and gain **hands-on experience** with cloud deployment, basic AI logic, and secure application setup on AWS.
 
-This project is **fully Free Tier-compatible**, beginner-friendly, and can easily be extended with features like **AWS Comprehend integration, message storage in S3, or more advanced AI models**.  
+The application allows users to submit customer messages through a web interface and automatically classifies them as **Complaint, Inquiry, or Feedback**. While the AI logic is intentionally simple, the project mirrors how real-world cloud applications are structured, deployed, and managed.
 
-Feel free to explore, improve, and adapt this project to make it your own portfolio highlight!
+### 🔑 What You’ll Learn
+- Deploying a Flask web application on an AWS EC2 instance  
+- Using IAM roles instead of hard-coded credentials  
+- Implementing basic AI-style text classification logic  
+- Structuring a cloud project suitable for a professional portfolio  
+
+This project is **AWS Free Tier compatible**, beginner-friendly, and ideal for learners looking to strengthen their cloud and Python skills through practical implementation rather than theory alone.
 
 
 ---
