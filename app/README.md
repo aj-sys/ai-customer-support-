@@ -31,7 +31,7 @@ This project is **AWS Free Tier compatible**, beginner-friendly, and ideal for l
 
 The diagram below shows the workflow of the AI Customer Support App:
 
-![Architecture Diagram](app/screenshots/architectural_diagram.png)
+![Architecture Diagram](screenshots/architectural_diagram.png)
 
 - Users submit messages via the web interface.  
 - Flask app processes the messages and classifies them.  
@@ -55,7 +55,7 @@ ssh -i <your-key>.pem ec2-user@<EC2-PUBLIC-IP>
 ````
 
 **Screenshot:**
-![Running EC2 Instance](app/screenshots/01_running_ec2_instance.png)
+![Running EC2 Instance](screenshots/01_running_ec2_instance.png)
 
 ---
 
@@ -68,14 +68,14 @@ pip3 install --user flask
 ```
 
 **Screenshot:**
-![Dependencies Installed](app/screenshots/03_dependencies_installed.png)
+![Dependencies Installed](screenshots/03_dependencies_installed.png)
 
 ---
 
 ### 3. Configure Security Group for Port 5000
 
 **Screenshot:**
-![Security Group Rules](app/screenshots/02_security_groups.png)
+![Security Group Rules](screenshots/02_security_groups.png)
 
 
 ---
@@ -93,9 +93,8 @@ Paste your Flask code into `app.py` and save.
 **Screenshots:**
 
 * Flask script in editor (Nano or VS Code)
-![Flask App Script](app/screenshots/04_flask_app_script.png)
-![Flask Script in Nano](app/screenshots/05_flask_app_in_nano.png)
-
+![Flask App Script](screenshots/04_flask_app_script.png)
+![Flask Script in Nano](screenshots/05_flask_app_in_nano.png)
 ---
 
 ### 5. Run the Flask App
@@ -112,7 +111,7 @@ http://<EC2-PUBLIC-IP>:5000
 ```
 
 **Screenshot:**
-![Flask App Running](app/screenshots/06_flask_app_running.png)
+![Flask App Running](screenshots/06_flask_app_running.png)
 
 ---
 
@@ -127,7 +126,7 @@ Try typing these messages in the app:
 | “Great service, thanks!”     | Feedback       |
 
 **Screenshot:**
-![Message Classification Results](app/screenshots/07_message_classification_results.png)
+![Message Classification Results](screenshots/07_message_classification_results.png)
 ---
 
 ### 7. Optional Enhancements
